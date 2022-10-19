@@ -122,9 +122,5 @@ def main():
     if isBoardFull(board):
         print('Its a tie!')
 
-        main()
-        while True:
-            input('Play again')
-            main()
 
 main()
